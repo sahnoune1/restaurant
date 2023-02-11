@@ -1,6 +1,6 @@
 export const content = document.getElementById("content");
 
-export function header(content, className, innerHTML) {
+export function header(className, innerHTML) {
   const header = document.createElement("div");
   header.setAttribute("class", `header ${className}`);
   header.innerHTML = innerHTML;
